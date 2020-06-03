@@ -1,3 +1,4 @@
+<?php
 function remove(int $number) : array {
 	$tasks = readFromFile();
 	unset($tasks[$number - 1]);
